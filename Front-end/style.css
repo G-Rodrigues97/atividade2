@@ -1,0 +1,81 @@
+body{
+   background: linear-gradient(#160101, #000000);
+    
+    /* Garante que o fundo ocupe a altura inteira da tela e não fique repetindo */
+    background-attachment: fixed;
+    min-height: 100vh; 
+    margin: 0;
+    font-family: 'Orbitron','Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+hr{
+    hr {
+            border: none;               /* Remove a borda padrão cinza */
+            height: 2px;                /* Espessura da linha */
+            background-color: #050000;  /* Cor da linha (azul neste exemplo) */
+            margin-top: 0;
+        }
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 6px solid ;
+    border-image: linear-gradient(45deg,rgb(90, 1, 1),rgba(122, 1, 1, 0.363),rgb(247, 2, 2))2;
+
+}
+.generos ul{
+list-style: none;
+padding:2px;
+margin: 2px;
+text-align: center;
+}
+   
+
+
+.generos li{
+    
+    align-items: center;
+   
+    background-color: rgb(24, 1, 3);
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fffdfd;
+    line-height: 2;
+}
+h2{
+    text-align: center;
+    align-items: center;
+    padding: 4px 10px;
+    background-color: #160101;
+    border-radius: 6px;
+
+}
+li{
+    
+   text-align: center;
+}
+
+
+h3{
+    text-align: center;
+}
+a{
+    
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #850404;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: #fffdfd;
+    line-height: 1;
+}
